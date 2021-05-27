@@ -1,0 +1,119 @@
+body{
+    background: #FFE5B4;
+}
+
+.mainMenuBtns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    font-size:large;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bold;
+    border: #ff680d 2px solid;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.btnMainMenuAdd{
+    background-color:#ffa500;
+}
+
+.witcherBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 90px;
+    width: 400px;
+    background-color: white;
+    border: #a80300 2pt solid;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.witcherInfo{
+    margin: 0px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.witcherCheckBox{
+    align-self:center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+
+.btnMainMenuSearch{
+    background: #ff7818;
+}
+
+.btnMainMenuShowHidden{
+    background: #ff7818;
+    display: none;
+}
+
+.popUpWrapper{
+    display: none;
+    background: white;
+    border: #a80300 2pt solid;
+    height: 50px;
+    width: 1415px;
+    padding-top: 20px;
+    padding-left: 20px;
+    top: 5px;
+    left: 50px;
+    position: fixed;
+}
+
+.btnPopUpCancel{
+    background: lightslategray;
+    margin-right: 30px;
+}
+
+.popUpSearchTypesBtns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+
+.formInputData{
+    display: none;
+}
+
+.formtextBoxInputData{
+    
+    width: 800px;
+    height: 30px;
+    margin-right: 23px;
+    font-size: medium;
+}
+
+.formlblInputData{
+    font-size: large;
+}
+
+.btnMainMenuDelete{
+    background-color:#f09b00;
+
+}
